@@ -1,0 +1,56 @@
+{
+  "id": "1db33474-644f-49f3-bff5-b77f977c5913",
+  "version": "2.0",
+  "name": "A710230031-RiskyaEgiPratama-UAS",
+  "url": "https://obscure-xylophone-pjg79pwqpjvghr75v-8080.app.github.dev",
+  "tests": [
+    {
+      "id": "d95a8ebf-c83d-482a-adc5-ebdfce459089",
+      "name": "Test Tanya Kabar",
+      "commands": [
+        {
+          "id": "1",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "id": "2",
+          "command": "setWindowSize",
+          "target": "1280x800",
+          "value": ""
+        },
+        {
+          "id": "3",
+          "command": "click",
+          "target": "css=.btn-primary",
+          "value": ""
+        },
+        {
+          "id": "4",
+          "command": "assertText",
+          "target": "id=response",
+          "value": "Saya baik, bagaimana dengan kamu?"
+        },
+        {
+          "id": "5",
+          "command": "click",
+          "target": "css=body",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "a3a95018-7be8-4777-898b-8236fc28699b",
+      "name": "UAS Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": ["d95a8ebf-c83d-482a-adc5-ebdfce459089"]
+    }
+  ],
+  "urls": ["https://obscure-xylophone-pjg79pwqpjvghr75v-8080.app.github.dev/"],
+  "plugins": []
+}

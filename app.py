@@ -60,7 +60,7 @@ def main():
     <body>
         <div class="container">
             <h1>Halo, Riskya Egi Pratama!</h1>
-            <p>Selamat datang di Web Saya/p>
+            <p>Selamat datang di Web Saya
             <p><strong>NIM:</strong> A710230031</p>
             <form action="/how-are-you">
                 <button class="button" type="submit">Tanya Kabar</button>
